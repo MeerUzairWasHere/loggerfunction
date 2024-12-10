@@ -1,6 +1,6 @@
 {
   "name": "loggerfunction",
-  "version": "3.0.3",
+  "version": "1.0.0",
   "description": "A lightweight utility function to enhance console.log by logging the file name and line number automatically.",
   "main": "dist/index.js",
   "keywords": [
