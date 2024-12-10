@@ -1,12 +1,9 @@
 {
   "name": "loggerfunction",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "",
   "main": "dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "keywords": ["logger","wrapper"],
   "author": "",
   "license": "ISC"
 }
