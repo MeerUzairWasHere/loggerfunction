@@ -1,9 +1,15 @@
 {
   "name": "loggerfunction",
   "version": "2.0.1",
-  "description": "",
+  "description": "A lightweight utility function to enhance console.log by logging the file name and line number automatically.",
   "main": "dist/index.js",
-  "keywords": ["logger","wrapper"],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "logger",
+    "wrapper"
+  ],
+  "author": "meeruzairwashere.online",
+  "license": "ISC",
+  "dependencies": {
+    "source-map-support": "^0.5.21"
+  }
 }

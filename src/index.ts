@@ -1,3 +1,5 @@
+import "source-map-support/register";
+
 export function log(...args: any[]) {
   const stack = new Error().stack;
   const callerInfo = stack?.split("\n")[2].trim();

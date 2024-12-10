@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.log = log;
+require("source-map-support/register");
 function log(...args) {
     const stack = new Error().stack;
     const callerInfo = stack === null || stack === void 0 ? void 0 : stack.split("\n")[2].trim();
@@ -13,3 +14,14 @@ function log(...args) {
         console.log(...args);
     }
 }
+function greet(name) {
+    log("Hello,", name);
+}
+function add(a, b) {
+    log("Adding numbers:", a, b);
+    return a + b;
+}
+greet("World");
+add(5, 3);
+log("This is a standalone log");
+//# sourceMappingURL=index.js.map
