@@ -22,6 +22,18 @@ Or via yarn:
 yarn add loggerfunction
 ```
 
+## Note for TypeScript Users
+
+If you are using TypeScript, make sure to enable source maps in your `tsconfig.json` file to ensure accurate file names and line numbers are displayed:
+
+```json
+{
+  "compilerOptions": {
+    "sourceMap": true
+  }
+}
+```
+
 ## Usage
 
 ### Import the loggerfunction
